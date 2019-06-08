@@ -1,15 +1,16 @@
 import React from 'react';
-import StarKeys from './StarKeys.js'
+import StarCharacter from './StarCharacter.js'
+// import StarValues from './StarValues.js'
 import './StarWars.css';
 
 const StarList = props => {
-  // console.log('props:',props);
-  console.log('getting keys:',Object.keys(props.charInfo));
+  console.log('props StarList:',props);
+  // console.log('getting keys:',Object.keys(props.charInfo));
   return (
     <div className="starListContainer">
-      {Object.keys(props.charInfo).map( key => {
+      {props.charInfo.map(char => {
         return (
-          <StarKeys charKeys={key}/>
+          <StarCharacter starChar={char}/>
         )
       })}
     </div>
