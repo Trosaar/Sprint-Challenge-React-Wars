@@ -4,7 +4,7 @@ import StarCharacter from './StarCharacter.js'
 import './StarWars.css';
 
 const StarList = props => {
-  console.log('props StarList:',props);
+  // console.log('props StarList:',props);
   // console.log('getting keys:',Object.keys(props.charInfo));
   return (
     <div className="starListContainer">

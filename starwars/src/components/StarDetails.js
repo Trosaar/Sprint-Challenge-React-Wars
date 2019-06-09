@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './StarWars.css';
 
 const StarDetails = props => {
-  console.log('StarDetails:',props.values)
+  // console.log('StarDetails:',props.values)
   // console.log('values:',props.details);
   // console.log('getting keys:',Object.keys(props.charInfo));
   return (

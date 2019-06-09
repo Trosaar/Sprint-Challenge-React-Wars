@@ -3,7 +3,7 @@ import StarDetails from './StarDetails.js'
 import './StarWars.css';
 
 const StarCharacter = props => {
-  console.log('props StarCharacter:',props);
+  // console.log('props StarCharacter:',props);
   // console.log('values:',props.charValues);
   // console.log('getting keys:',Object.keys(props.charInfo));
 
