@@ -10,7 +10,7 @@ const StarList = props => {
     <div className="starListContainer">
       {props.charInfo.map(char => {
         return (
-          <StarCharacter starChar={char}/>
+          <StarCharacter starChar={char} key={props.charInfo.name}/>
         )
       })}
     </div>
